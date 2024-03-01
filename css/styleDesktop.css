@@ -1,0 +1,160 @@
+/* GENERALE */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  line-height: 1.65;
+  font-size: 1.2rem;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2em;
+  color: #25a2c3;
+}
+
+h2 {
+  line-height: 1.5;
+  font-weight: 700;
+  color: #25a2c3;
+}
+
+.bianco {
+  color: white;
+}
+
+.image-resize {
+  width: 100%;
+}
+
+/* FINE GENERALE */
+
+/* HEADER */
+header {
+  background-color: black;
+}
+
+.start {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5%;
+}
+
+.start button {
+  background-color: #f04c2f;
+  padding: 1.2em;
+  width: 10%;
+  border-radius: 5px;
+  margin-top: 2em;
+}
+
+.logo {
+  padding: 2%;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+
+main {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+main .round {
+  border-radius: 50%;
+}
+
+.spiegazione {
+  margin-left: 20%;
+}
+
+.spiegazione p {
+  margin-bottom: 5%;
+}
+
+.epicode {
+  background-color: #e22d0e;
+  color: white;
+}
+
+.epicode h1 {
+  color: white;
+  padding-top: 10%;
+}
+
+.epicode p {
+  padding: 2%;
+}
+
+.epicode .credits {
+  padding-bottom: 0;
+}
+
+.epicode .ceo {
+  padding-top: 0;
+  font-size: 0.5em;
+}
+
+.card {
+  margin: 2%;
+  border-color: 2px solid #dee1e3;
+  width: 20%;
+  margin-bottom: 10%;
+}
+
+.card .foto-card {
+  width: 100%;
+  height: 100%;
+}
+
+/* FINE MAIN */
+
+/* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+}
+
+.info {
+  border-bottom: 1px solid #dee1e3;
+}
+
+footer h2 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2em;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.info {
+  width: 30%;
+  margin: auto;
+}
+
+footer .source {
+  font-size: 0.7em;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+
+footer img {
+  height: 4%;
+  width: 4%;
+}
+/* FINE FOOTER */
