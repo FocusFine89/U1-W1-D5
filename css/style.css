@@ -1,0 +1,138 @@
+/* GENERALE */
+* {
+  margin: 5%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 500px;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2em;
+  color: #25a2c3;
+}
+
+h2 {
+  line-height: 1.5;
+  font-weight: 700;
+  color: #25a2c3;
+}
+
+.bianco {
+  color: white;
+}
+
+.image-resize {
+  width: 100%;
+}
+
+/* FINE GENERALE */
+
+/* HEADER */
+header {
+  background-color: black;
+  text-align: center;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  padding: 10%;
+}
+
+.start {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  padding-top: 10%;
+  background-size: contain;
+}
+
+.start button {
+  background-color: #f04c2f;
+  padding: 4%;
+  width: 40%;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+
+main {
+  text-align: center;
+}
+
+.spiegazione p {
+  padding-bottom: 5%;
+}
+
+.foto1 {
+  border-radius: 50%;
+  max-width: 500px;
+}
+
+.epicode {
+  background-color: #e22d0e;
+  color: white;
+}
+
+.epicode h1 {
+  color: white;
+  padding-top: 15%;
+}
+
+.epicode p {
+  padding: 5%;
+}
+
+.epicode .credits {
+  padding-bottom: 0;
+}
+
+.epicode .ceo {
+  font-size: 0.7em;
+  padding: 0;
+  padding-bottom: 10%;
+}
+
+.card {
+  margin: 15%;
+  border-color: 2px solid #dee1e3;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: white;
+}
+
+footer h2 {
+  color: white;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2em;
+}
+footer img {
+  height: 4%;
+  width: 4%;
+}
+
+a:visited {
+  color: white;
+}
+
+footer .source {
+  font-size: 0.7em;
+  margin-top: 10%;
+  padding-bottom: 15%;
+}
+/* FINE FOOTER */
